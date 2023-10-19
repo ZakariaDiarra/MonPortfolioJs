@@ -34,25 +34,25 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  height: 17vh;
+  height: 15vh;
 }
 
 .nav-links {
-  gap: 2rem;
+  gap: 1.5rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 a {
   color: black;
   text-decoration: none;
-  text-decoration-color: rgb(152, 5, 250);
+  text-decoration-color: rgb(188, 99, 248);
 }
 
 a:hover {
-  color: rgb(250, 5, 250);
+  color: rgb(223, 118, 233);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(11, 17, 1);
@@ -60,11 +60,11 @@ a:hover {
 
 .logo {
   font-size: 3rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Poppins, sans-serif";
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: not-allowed;
 }
 
 /* HAMBURGER MENU */
@@ -232,7 +232,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(229, 5, 250) 0.1rem solid;
+  border: rgb(188, 99, 248) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -242,7 +242,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(224, 99, 255);
+  background: rgb(188, 99, 248);
   color: #000;
 }
 
@@ -286,7 +286,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 5rem;
 }
 
 .arrow {
@@ -298,10 +298,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: rgb(236, 234, 236);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -323,10 +323,12 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(0, 0, 0);
+  color: rgb(7, 0, 12);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
+  background-color: rgb(253, 253, 253);
+  border-radius: 5px;
 }
 
 .experience-details-container {
