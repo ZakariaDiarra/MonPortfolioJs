@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mon Portfolio</title>
+    <title>Portfolio de Zak</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo"> Z@k </div>
+      <div class="logo">Zak</div>
       <div>
         <ul class="nav-links">
           <li><a href="#">Accueil</a></li>
@@ -22,7 +22,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Z@k /></div>
+      <div class="logo">Zak</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -31,23 +31,22 @@
         </div>
         <div class="menu-links">
           <li><a href="#" onclick="toggleMenu()">Accueil</a></li>
-          <li><a href="#about" onclick="toggleMenu()">APropos</a></li>
+          <li><a href="#about" onclick="toggleMenu()">A Propos</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Stacks</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Portfolio</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/intro-section-illustration.png" alt="photo profile" />
-      </div>
       <div class="section__text">
-        <p class="section__text__p1">Salut, Je m'appelle</p>
-        <h1 class="title">Zakaria Diarra</h1>
-        <p class="section__text__p2">Je suis Developpeur Web</p>
+        <p class="section__text__p1">Salut, je suis</p>
+        <h1 class="title">Développeur Full-Stack</h1>
+        <p class="section__text__p2">Avec une forte affection pour le Backend, ma philosophie pour le Frontend est "droit au but".</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/cvzak.pdf')"
           >
             CV
           </button>
@@ -70,18 +69,14 @@
           />
         </div>
       </div>
+      <div class="section__pic-container">
+        <img src="./assets/intro-section-illustration.png" alt="photo profile" />
+      </div>
     </section>
     <section id="about">
       <p class="section__text__p1">Qui suis-je</p>
       <h1 class="title">A Propos</h1>
       <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/profile-pic-6.jpg"
-            alt="Photo Profile"
-            class="about-pic"
-          />
-        </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
@@ -91,10 +86,10 @@
                 class="icon"
               />
               <h3>Soft Skills</h3>
-              <p>Bilingue</p>
               <p>Serviable</p>
               <p>Intelligence sociale</p>
               <p>Excellent communiquant</p>
+              <p>Bilingue Français-Anglais</p>
             </div>
             <div class="details-container">
               <img
@@ -105,13 +100,11 @@
               <h3>Certifications</h3>
               <p>Meta FrontEnd Developer </p>
               <p>Meta BackEnd Developer </p>
-              <p>IBM FullStack Software Developer</p>
-              <p>Responsive Web Design Specialzation</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              En tant que développeur web et logiciels chevronné, ma passion pour les solutions SaaS m'a constamment poussé à repousser mes limites en apprenant toujours plus de technologies qui permettent de donner vie à mes idées de solutions BtoB. Chaque projet est pour moi une occasion de plonger dans de nouveaux défis, d'expérimenter de nouvelles approches afin d'aboutir à des solutions innovantes. L'un de mes atouts majeurs réside dans ma capacité à m'adapter rapidement à de nouvelles technologies. Que ce soit pour apprendre un nouveau langage de programmation, maîtriser un framework inédit ou intégrer une solution tierce, je sais faire preuve d'une agilité peu commune. Cette flexibilité, combinée à une grande ambition de devenir le meilleur développeur que je peux l'être, fait de moi un élement polyvalent et fiable au sein d'une équipe de développeurs.
+              En tant que développeur logiciels chevronné, ma passion pour les solutions SaaS m'a constamment poussé à repousser mes limites en apprenant toujours plus de technologies qui permettent de donner vie à mes idées de solutions BtoB. Chaque projet est pour moi une occasion de plonger dans de nouveaux défis, d'expérimenter de nouvelles approches afin d'aboutir à des solutions innovantes. L'un de mes atouts majeurs réside dans ma capacité à m'adapter rapidement à de nouvelles technologies. Que ce soit pour apprendre un nouveau langage de programmation, maîtriser un framework inédit ou intégrer une solution tierce, je sais faire preuve d'une agilité peu commune. Cette flexibilité, combinée à une grande ambition de devenir le meilleur développeur que je peux l'être, fait de moi un élement polyvalent et fiable au sein d'une équipe de développeurs.
             </p>
           </div>
         </div>
@@ -168,12 +161,12 @@
               </article>
               <article>
                 <img
-                  src="./assets/angular.png"
+                  src="./assets/git.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Angular JS</h3>
+                  <h3>Vue JS</h3>
                 </div>
               </article>
             </div>
@@ -181,26 +174,6 @@
           <div class="details-container">
             <h2 class="experience-sub-title">BackEnd</h2>
             <div class="article-container">
-              <article>
-                <img
-                  src="./assets/python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/django.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Django</h3>
-                </div>
-              </article>
               <article>
                 <img
                   src="./assets/nodejs.png"
@@ -213,12 +186,32 @@
               </article>
               <article>
                 <img
-                  src="./assets/postman.png"
+                  src="./assets/python.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Postman</h3>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/express-js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/django.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
                 </div>
               </article>
             </div>
@@ -248,22 +241,22 @@
               </article>
               <article>
                 <img
+                  src="./assets/mysql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
                   src="./assets/Firebase.png"
                   alt="Experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>FireBase</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/aws.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>AWS</h3>
+                  <h3>Firebase</h3>
                 </div>
               </article>
             </div>
@@ -278,7 +271,7 @@
       />
     </section>
     <section id="projects">
-      <p class="section__text__p1">3 de mes projects les plus aboutis</p>
+      <p class="section__text__p1">Quelques projets</p>
       <h1 class="title">Portfolio</h1>
       <div class="experience-details-container">
         <div class="about-containers">
@@ -290,20 +283,22 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">PetsBook</h2>
-            <p class="section__text__p1">Un réseau social spécialement pour les personnes qui possèdent des animaux de compagnie.</p><br>
+            <h2 class="experience-sub-title project-title">viafro</h2>
+            <p class="section__text__p1">Un blog de voyage et de marketing d'affiliation. Le blog est composé d'une vue de chaque pays d'Afrique.</p><br>
+            <p class="section__text__p1">Frontend: Javascript - Vue.js - Bootstrap<br>
+              Backend: Django Rest Framework - MySQL</p><br>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/ZakariaDiarra'"
               >
-                Github
+                Code
               </button>
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/ZakariaDiarra'"
               >
-                Voir Demo
+                Demo
               </button>
             </div>
           </div>
@@ -315,20 +310,22 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">CarWizard</h2>
-            <p class="section__text__p1">Un projet de Saas pour les professionnels revendeurs d'automobiles d'occasion.</p><br>
+            <h2 class="experience-sub-title project-title">zaXxo</h2>
+            <p class="section__text__p1">Une boutique e-commerce qui commercialise des produits exotiques en BtoB et BtoC.</p><br>
+            <p class="section__text__p1">Frontend: Javascript - React.js - Tailwind.css<br>
+              Backend: Node.js - Express.js - Sanity.io</p><br>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/ZakariaDiarra'"
               >
-                Github
+                Code
               </button>
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/ZakariaDiarra'"
               >
-                Voir Demo
+                Demo
               </button>
             </div>
           </div>
@@ -340,20 +337,22 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Shop Defender</h2>
-            <p class="section__text__p1">Une Application destinée aux E-commerces pour prévenir les payements frauduleux.</p><br>
+            <h2 class="experience-sub-title project-title">ModulHome</h2>
+            <p class="section__text__p1">Un site professionnel immobilier consacré à la vente et la location de "maisons-conteneurs"</p><br>
+            <p class="section__text__p1">Frontend: Javascript - React.js - Bootstrap <br>
+              Backend: Node.js - Express.js - PostgreSQL</p><br>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/ZakariaDiarra'"
               >
-                Github
+                Code
               </button>
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/ZakariaDiarra'"
               >
-                Voir Demo
+                Demo
               </button>
             </div>
           </div>
@@ -382,6 +381,7 @@
         <div class="contact-info-container">
           <img
             src="./assets/linkedin.png"
+            target="_blank"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
@@ -393,8 +393,8 @@
     </section>
     <footer>
       <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
+        <div class="footer-nav-links-container">
+          <ul class="footer-nav-links">
           <li><a href="#">Accueil</a></li>
             <li><a href="#about">A Propos</a></li>
             <li><a href="#experience">Stacks</a></li>
@@ -403,7 +403,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 | Par Zakaria.</p>
+      <p>Copyright &#169; 2023 | Par Zak.</p>
     </footer>
     <script src="script.js"></script>
   </body>

@@ -1,3 +1,4 @@
 # MonPortfolioJs
-Mon portfolio ultra simple avec les bases du :
+
+Mon portfolio simplifié avec :
 HTML -CSS -JAVASCRIPT !
